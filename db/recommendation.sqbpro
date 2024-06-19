@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/cerenyanik/Desktop/db/recommendation.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="583"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,5:mainMovie"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">
+INSERT INTO Movie (title, genre, rating, mood) VALUES
+(&quot;Inception&quot;, &quot;Sci-Fi&quot;, 8.8, &quot;adventurous&quot;),
+(&quot;The Matrix&quot;, &quot;Sci-Fi&quot;, 8.7, &quot;adventurous&quot;),
+(&quot;Interstellar&quot;, &quot;Sci-Fi&quot;, 8.6, &quot;thoughtful&quot;),
+(&quot;The Shawshank Redemption&quot;, &quot;Drama&quot;, 9.3, &quot;uplifting&quot;),
+(&quot;Forrest Gump&quot;, &quot;Drama&quot;, 8.8, &quot;happy&quot;);
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
